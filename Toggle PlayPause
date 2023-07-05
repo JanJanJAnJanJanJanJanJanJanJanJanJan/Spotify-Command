@@ -1,0 +1,5 @@
+import { runAppleScript } from "run-applescript";
+
+export default async function Command() {
+  await runAppleScript('tell application "Spotify" to playpause');
+}
